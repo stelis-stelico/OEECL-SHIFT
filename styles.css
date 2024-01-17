@@ -5,7 +5,11 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f4f4f4;
+    background-color: #009d02;
+  }
+
+  .header {
+    color: #009d02;
   }
   
   .container {
@@ -13,7 +17,7 @@ body {
     max-width: 400px;
     margin: auto;
     background-color: #fff;
-    padding: 20px;
+    padding: 50px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
@@ -26,6 +30,7 @@ body {
     display: block;
     margin-bottom: 10px;
     color: #333;
+    font-weight: bold;
   }
   
   input, select {
@@ -36,12 +41,12 @@ body {
   }
   
   button {
-    padding: 12px;
-    background-color: #2ecc71;
+    background-color: #009d02;
     color: #fff;
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    padding: 10px 40px;
   }
   
   #result {
