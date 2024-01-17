@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shift Insight</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>OEECL Shift Insight</h1>
+
+    <label for="shift">Select Shift:</label>
+    <select id="shift">
+      <option value="A">Shift A</option>
+      <option value="B">Shift B</option>
+      <option value="C">Shift C</option>
+      <option value="D">Shift D</option>
+    </select>
+
+    <label for="date">Enter Date:</label>
+    <input type="date" id="date" required>
+
+    <button onclick="predictShift()">Check</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
